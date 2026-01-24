@@ -1,9 +1,9 @@
 entrypoint = "bot.js"
 run = ["sh", "-c", "npm install && node bot.js"]
-modules = ["nodejs-18", "web", "nix"]
+modules = ["nodejs-20"]
 
 [nix]
-channel = "stable-25_05"
+channel = "stable-22_11"
 
 [agent]
 expertMode = true
