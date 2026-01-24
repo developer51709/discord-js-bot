@@ -1,14 +1,14 @@
 module.exports = {
   OWNER_IDS: ["1435974392810307604"], // Bot owner ID's
-  SUPPORT_SERVER: "1443314822182732010", // Your bot support server
+  SUPPORT_SERVER: "https://discord.gg/k7DWBCsRHC", // Your bot support server invite link
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: "!", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
-    GLOBAL: false, // Should the interactions be registered globally
+    CONTEXT: true, // Should contexts be enabled
+    GLOBAL: true, // Should the interactions be registered globally
     TEST_GUILD_ID: "1443314822182732010", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://6b217b23-6180-431f-90e3-e494450412a8-00-lk6vzr39y2no.kirk.replit.dev", // base url
-    failureURL: "https://6b217b23-6180-431f-90e3-e494450412a8-00-lk6vzr39y2no.kirk.replit.dev", // failure redirect url
+    baseURL: "https://b7f7a554-b68f-45ac-bca7-e6604f5b907a-00-hhz6hfbgxodc.spock.replit.dev", // base url
+    failureURL: "https://b7f7a554-b68f-45ac-bca7-e6604f5b907a-00-hhz6hfbgxodc.spock.replit.dev", // failure redirect url
     port: "5000", // port to run the bot on
   },
 
